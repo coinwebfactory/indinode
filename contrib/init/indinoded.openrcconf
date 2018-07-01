@@ -1,0 +1,26 @@
+# /etc/conf.d/indinoded: config file for /etc/init.d/indinoded
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/indinode/indinode.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/indinoded"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/indinoded.pid"
+
+# Where to write indinoded data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/indinoded"
+
+# User and group to own indinoded process
+#BITCOIND_USER="indinode"
+#BITCOIND_GROUP="indinode"
+
+# Path to indinoded executable
+#BITCOIND_BIN="/usr/bin/indinoded"
+
+# Nice value to run indinoded under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

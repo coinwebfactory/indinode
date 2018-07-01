@@ -1,0 +1,26 @@
+[Unit]
+Description=IndiNode's distributed currency daemon
+After=network.target
+
+[Service]
+User=indinode
+Group=indinode
+
+Type=forking
+PIDFile=/var/lib/indinoded/indinoded.pid
+
+ExecStart=/usr/bin/indinoded -daemon -pid=/var/lib/indinoded/indinoded.pid \
+          -conf=/etc/indinode/indinode.conf -datadir=/var/lib/indinoded
+
+ExecStop=-/usr/bin/indinode-cli -conf=/etc/indinode/indinode.conf \
+         -datadir=/var/lib/indinoded stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

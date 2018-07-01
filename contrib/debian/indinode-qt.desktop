@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IndiNode
+Comment=IndiNode P2P Cryptocurrency
+Comment[fr]=IndiNode, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=IndiNode, eşten eşe kriptografik sanal para birimi
+Exec=indinode-qt %u
+Terminal=false
+Type=Application
+Icon=indinode128
+MimeType=x-scheme-handler/indinode;
+Categories=Office;Finance;

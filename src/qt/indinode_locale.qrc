@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/indinode_bg.qm</file>
+        <file alias="ca">locale/indinode_ca.qm</file>
+        <file alias="cs">locale/indinode_cs.qm</file>
+        <file alias="da">locale/indinode_da.qm</file>
+        <file alias="de">locale/indinode_de.qm</file>
+        <file alias="en">locale/indinode_en.qm</file>
+        <file alias="en_US">locale/indinode_en_US.qm</file>
+        <file alias="es">locale/indinode_es.qm</file>
+        <file alias="fi">locale/indinode_fi.qm</file>
+        <file alias="fr_FR">locale/indinode_fr_FR.qm</file>
+        <file alias="hr">locale/indinode_hr.qm</file>
+        <file alias="it">locale/indinode_it.qm</file>
+        <file alias="ja">locale/indinode_ja.qm</file>
+        <file alias="ko_KR">locale/indinode_ko_KR.qm</file>
+        <file alias="nl">locale/indinode_nl.qm</file>
+        <file alias="pl">locale/indinode_pl.qm</file>
+        <file alias="pt">locale/indinode_pt.qm</file>
+        <file alias="pt_BR">locale/indinode_pt_BR.qm</file>
+        <file alias="ro_RO">locale/indinode_ro_RO.qm</file>
+        <file alias="ru">locale/indinode_ru.qm</file>
+        <file alias="sk">locale/indinode_sk.qm</file>
+        <file alias="sv">locale/indinode_sv.qm</file>
+        <file alias="tr">locale/indinode_tr.qm</file>
+        <file alias="uk">locale/indinode_uk.qm</file>
+        <file alias="zh_CN">locale/indinode_zh_CN.qm</file>
+        <file alias="zh_TW">locale/indinode_zh_TW.qm</file>
+    </qresource>
+</RCC>
