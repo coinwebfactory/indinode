@@ -38,7 +38,7 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast)
 		
 		int64_t nTargetSpacing = 60;
 		
-		if (pindexLast->nHeight < 310000) {
+		if (pindexLast->nHeight < 350000) {
 			int64_t nTargetSpacing = 60;
 		} else {
 			int64_t nTargetSpacing = 60 * 3;
