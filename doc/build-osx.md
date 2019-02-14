@@ -81,7 +81,7 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `indinoded` for your own use.
 
-indinoded/indinode-cli binaries are not included in the indinode-Qt.app bundle.
+indinoded/indinode-cli binaries are not included in the IndiNode-Qt.app bundle.
 
 If you are building `indinoded` or `indinode-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
